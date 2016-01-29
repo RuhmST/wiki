@@ -1,0 +1,14 @@
+# Document:
+# http://simiki.org/docs/configuration.html
+
+url: wiki by Ruhm
+title: personal wiki site
+keywords: wiki programming
+description: I know nothing except the fact of my ignorance.
+author: Ruhm Pacino
+pygments: true
+
+deploy:
+  - type: git
+    remote: https://github.com/RuhmST/wiki.git
+    branch: gh-pages
